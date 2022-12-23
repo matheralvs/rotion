@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Editor } from "../components/Editor";
 import { ToC } from "../components/ToC";
 
 export function Document() {
@@ -16,7 +17,9 @@ export function Document() {
         </ToC.Root>
       </aside>
 
-      <section className="flex-1 flex-col items-center"></section>
+      <section className="flex-1 flex-col items-center">
+        <Editor />
+      </section>
     </main>
   );
 }
