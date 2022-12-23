@@ -11,7 +11,7 @@ export function Document() {
         </span>
 
         <ToC.Root>
-          <ToC.Link>Arquitetura back-end</ToC.Link>
+          <ToC.Link>Back-end</ToC.Link>
           <ToC.Section>Banco de Dados</ToC.Section>
           <ToC.Section>Mensageria</ToC.Section>
         </ToC.Root>
